@@ -102,6 +102,9 @@ $ p2r -v https://arxiv.org/abs/1811.11242
 *For ArchLinux, paper2remarkable can be installed through the [Arch User 
 Repository](https://aur.archlinux.org/packages/paper2remarkable/).*
 
+*For Nix/NixOS, paper2remarkable can run and/or be installed using
+[flake.nix](./flake.nix) e.g. `nix run github:GjjvdBurg/paper2remarkable -- --help`*
+
 The script requires the following external programs to be available:
 
 - [pdftk](https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/), 
